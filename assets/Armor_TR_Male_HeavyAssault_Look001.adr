@@ -1,0 +1,35 @@
+<ActorRuntime>
+    <AnimationNetwork fileName="ThirdPerson.mrn" animSetName="Male" />
+    <AnimationEnumerations>
+        <AnimationEnumeration hash="709776765" value="0" />
+        <AnimationEnumeration hash="3330401813" value="1" />
+    </AnimationEnumerations>
+    <AnimationValues />
+    <Base fileName="Armor_TR_Male_HeavyAssault_Look001_Lod0.dme" paletteName="Armor_TR_Male_HeavyAssault_Look001_Lod0.dma" updateRadius="400.000000" waterDisplacementHeight="0.000000" objectTerrainDataId="0" />
+    <TextureAliases>
+        <Alias aliasName="default0" textureName="Armor_TR_Shared_All_DS.dds" modelType="0" materialIndex="0" semanticHash="1716414136" defaultTextureAlias="1" occlusionSlotBitmask="0" />
+        <Alias aliasName="default0" textureName="Shared_Characters_TR.dds" modelType="0" materialIndex="0" semanticHash="-125639093" defaultTextureAlias="1" occlusionSlotBitmask="0" />
+        <Alias aliasName="default0" textureName="Armor_TR_Shared_All_S.dds" modelType="0" materialIndex="0" semanticHash="67211600" defaultTextureAlias="1" occlusionSlotBitmask="0" />
+        <Alias aliasName="default0" textureName="Armor_TR_Shared_All_N.dds" modelType="0" materialIndex="0" semanticHash="789998085" defaultTextureAlias="1" occlusionSlotBitmask="0" />
+        <Alias aliasName="default0" textureName="Armor_TR_Shared_All_C.dds" modelType="0" materialIndex="0" semanticHash="-1295769314" defaultTextureAlias="1" occlusionSlotBitmask="0" />
+    </TextureAliases>
+    <TintAliases />
+    <Lods>
+        <Lod fileName="Armor_TR_Male_HeavyAssault_Look001_LOD1.dme" paletteName="Armor_TR_Male_HeavyAssault_Look001_Lod1.dma" distance="35" />
+        <Lod fileName="Armor_TR_Male_HeavyAssault_Look001_LOD2.dme" paletteName="Armor_TR_Male_HeavyAssault_Look001_Lod2.dma" distance="75" />
+        <Lod fileName="Armor_Uni_LOD2.dme" paletteName="Armor_TR_Male_HeavyAssault_Look001_Lod3.dma" distance="200" />
+    </Lods>
+    <CollisionType type="3378251441" />
+    <CollisionData fileName="Body_Male_Standard_LOD0.apx" />
+    <Usage actorUsage="1" borrowSkeleton="0" validatePcNpc="0" />
+    <HatHair type="Hair" coversFacialHair="0" />
+    <Shadows CheckShadowVisibility="0" />
+    <EquipType EquippedSlotName="Chest" />
+    <ChildAttachSlotsEx />
+    <OcclusionData SimpleVisibility="0" />
+    <MaterialType type="FLESH" />
+    <Invisible value="0" />
+    <DecalTintTranslations>
+        <Translation LocationName="Default " xUvLocation="0.100000" yUvLocation="0.100000" UV="1" scaleXVal="7.000000" scaleYVal="7.000000" rotation="0.000000" />
+    </DecalTintTranslations>
+</ActorRuntime>

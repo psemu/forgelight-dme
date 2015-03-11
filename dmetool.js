@@ -7,7 +7,11 @@ var DME = require("./dme.js"),
     path = require("path");
 
 function usage() {
-    console.log("Usage: ./dme.js <mode> <inPath> [<outPath>]");
+    console.log("Usage: ./dmetool.js <mode> <inPath> [<outPath>]");
+    console.log("Modes: info     Display basic info about the DME");
+    console.log("       obj      Export model to OBJ");
+    console.log("       json     Export model to JSON");
+    console.log("       matdef   Read materials_3.xml and export definitions to JSON");
 }
 
 
@@ -249,7 +253,3 @@ if (inPath) {
 } else {
     usage();
 }
-
-
-
-
